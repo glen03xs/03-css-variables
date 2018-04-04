@@ -1,4 +1,18 @@
+:root {
+	--base: #00aeff;
+	--spacing: 10px;
+	--blur: 10px;
+}
 
+img {
+	padding: var(--spacing);
+	background: var(--base);
+	filter: blur(var(--blur));
+}
+
+.hl {
+	color: var(--base);
+}
 
 body {
 	text-align: center;
@@ -14,6 +28,20 @@ body {
 
 .controls {
 	margin-bottom: 50px;
+}
+
+img {
+	width: 550px;
+	height: auto;
+}
+
+h2 {
+	font-size: 48px;
+	margin-bottom: 22px;
+}
+
+label {
+	font-size: 28px;
 }
 
 input {
